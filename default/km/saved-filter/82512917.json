@@ -1,0 +1,30 @@
+{
+  "$id": "82512917",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Answers - Properties",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "c_locationType",
+        "filterOption": {
+          "choice": [
+            "PROPERTY"
+          ],
+          "type": "IS"
+        }
+      },
+      {
+        "fieldId": "c_activeInAnswers",
+        "searchBool": "TRUE"
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "yext/location"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}

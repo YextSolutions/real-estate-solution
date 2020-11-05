@@ -1,0 +1,43 @@
+{
+  "$id": "Appraisal Management",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_activeInAnswers": true,
+    "c_photo": {
+      "height": 702,
+      "thumbnails": [
+        {
+          "height": 619,
+          "url": "https://a.mktgcdn.com/p/vLzxYk_zERUy7lHo4tCw9qAAN6wFP_UxJ63E9LTAF5k/619x619.png",
+          "width": 619
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/vLzxYk_zERUy7lHo4tCw9qAAN6wFP_UxJ63E9LTAF5k/450x450.png",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/vLzxYk_zERUy7lHo4tCw9qAAN6wFP_UxJ63E9LTAF5k/196x196.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/vLzxYk_zERUy7lHo4tCw9qAAN6wFP_UxJ63E9LTAF5k/702x702.png",
+      "width": 702
+    },
+    "c_primaryCTA": {
+      "label": "Get a Quote",
+      "link": "https://www.yext.com/",
+      "linkType": "URL"
+    },
+    "c_secondaryCTA": {
+      "label": "Contact Us",
+      "link": "yext@yext.com",
+      "linkType": "EMAIL"
+    },
+    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "yext/name": "Appraisal Management"
+  },
+  "entityType": "ce_service",
+  "labels": []
+}

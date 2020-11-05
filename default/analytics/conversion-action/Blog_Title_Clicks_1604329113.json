@@ -1,0 +1,25 @@
+{
+  "$id": "Blog_Title_Clicks_1604329113",
+  "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
+  "conversionName": "Blog Title Clicks",
+  "conversionType": "LEAD",
+  "conversionValueType": "SAME",
+  "conversionValueAmount": 5.0,
+  "conversionTerm": {
+    "startDate": "2020-11-02"
+  },
+  "conversionTrigger": {
+    "clickTriggers": [
+      {
+        "clickType": "TITLE",
+        "media": [
+          {
+            "answersConfig": "answers"
+          }
+        ]
+      }
+    ],
+    "completionRate": 100.0
+  },
+  "enabled": true
+}

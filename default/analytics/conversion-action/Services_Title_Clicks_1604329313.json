@@ -1,0 +1,25 @@
+{
+  "$id": "Services_Title_Clicks_1604329313",
+  "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
+  "conversionName": "Services Title Clicks",
+  "conversionType": "LEAD",
+  "conversionValueType": "SAME",
+  "conversionValueAmount": 5.0,
+  "conversionTerm": {
+    "startDate": "2020-11-02"
+  },
+  "conversionTrigger": {
+    "clickTriggers": [
+      {
+        "clickType": "TITLE",
+        "media": [
+          {
+            "mediumType": "ALL_MEDIUM_TYPES"
+          }
+        ]
+      }
+    ],
+    "completionRate": 100.0
+  },
+  "enabled": true
+}
