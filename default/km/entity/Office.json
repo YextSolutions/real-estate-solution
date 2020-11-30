@@ -2,7 +2,7 @@
   "$id": "Office",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
-    "c_activeInAnswers": true,
+    "c_activeInAnswers": "YES",
     "c_locationType": "OFFICE",
     "yext/address": {
       "city": "New York",

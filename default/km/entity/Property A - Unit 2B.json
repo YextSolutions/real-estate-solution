@@ -2,7 +2,7 @@
   "$id": "Property A - Unit 2B",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
-    "c_activeInAnswers": true,
+    "c_activeInAnswers": "YES",
     "c_associatedProperty": [
       "Apartment-1"
     ],

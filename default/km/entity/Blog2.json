@@ -1,8 +1,8 @@
 {
-  "$id": "How to Make the Right Real Estate Investment in 2020",
+  "$id": "Blog2",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
-    "c_activeInAnswers": true,
+    "c_activeInAnswers": "YES",
     "c_photo": {
       "height": 640,
       "thumbnails": [

@@ -1,42 +1,44 @@
 {
-  "$id": "A-5C",
+  "$id": "Blog1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
     "c_activeInAnswers": "YES",
-    "c_associatedProperty": [
-      "Apartment-1"
-    ],
     "c_photo": {
-      "height": 1134,
+      "height": 684,
       "thumbnails": [
         {
-          "height": 478,
-          "url": "https://a.mktgcdn.com/p/1gArnPEGqwcC2fangGgnD_caJLSs0ZtplEPzG6CGrMM/619x478.png",
+          "height": 619,
+          "url": "https://a.mktgcdn.com/p/f2C5ADJJiBapGZao7c6i6nvnOneisNFuKzz7YI7jJy0/619x619.png",
           "width": 619
         },
         {
           "height": 450,
-          "url": "https://a.mktgcdn.com/p/1gArnPEGqwcC2fangGgnD_caJLSs0ZtplEPzG6CGrMM/581x450.png",
-          "width": 581
+          "url": "https://a.mktgcdn.com/p/f2C5ADJJiBapGZao7c6i6nvnOneisNFuKzz7YI7jJy0/450x450.png",
+          "width": 450
         },
         {
-          "height": 151,
-          "url": "https://a.mktgcdn.com/p/1gArnPEGqwcC2fangGgnD_caJLSs0ZtplEPzG6CGrMM/196x151.png",
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/f2C5ADJJiBapGZao7c6i6nvnOneisNFuKzz7YI7jJy0/196x196.png",
           "width": 196
         }
       ],
-      "url": "https://a.mktgcdn.com/p/1gArnPEGqwcC2fangGgnD_caJLSs0ZtplEPzG6CGrMM/1466x1134.png",
-      "width": 1466
+      "url": "https://a.mktgcdn.com/p/f2C5ADJJiBapGZao7c6i6nvnOneisNFuKzz7YI7jJy0/684x684.png",
+      "width": 684
     },
     "c_primaryCTA": {
-      "label": "View Unit",
-      "link": "http://www.yext.com/",
-      "linkType": "OTHER"
+      "label": "Read Blog",
+      "link": "https://www.yext.com/",
+      "linkType": "URL"
+    },
+    "c_secondaryCTA": {
+      "label": "Contact Us",
+      "link": "yext@yext.com",
+      "linkType": "EMAIL"
     },
     "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "yext/landingPageUrl": "https://www.yext.com/",
-    "yext/name": "Property A - Unit 5C"
+    "yext/name": "How Can You Buy a Home in Bozeman Right Now?"
   },
-  "entityType": "ce_unit",
+  "entityType": "ce_blog",
   "labels": []
 }
