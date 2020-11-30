@@ -1,5 +1,5 @@
 {
-  "$id": "Service1",
+  "$id": "Service2",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
     "c_activeInAnswers": true,
