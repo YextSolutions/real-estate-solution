@@ -31,8 +31,7 @@
           "nlpFilter": true
         },
         "name": {
-          "semanticTextSearch": true,
-          "textSearch": false
+          "semanticTextSearch": true
         }
       },
       "sortBys": [],
