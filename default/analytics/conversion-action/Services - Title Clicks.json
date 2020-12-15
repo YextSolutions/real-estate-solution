@@ -1,5 +1,5 @@
 {
-  "$id": "Services_Title_Clicks_1604329313",
+  "$id": "1003",
   "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
   "conversionName": "Services Title Clicks",
   "conversionType": "LEAD",
@@ -14,7 +14,7 @@
         "clickType": "TITLE",
         "media": [
           {
-            "mediumType": "ALL_MEDIUM_TYPES"
+            "mediumType": "ALL_ANSWERS_EXPERIENCES"
           }
         ]
       }

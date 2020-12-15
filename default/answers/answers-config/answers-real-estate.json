@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
-  "$id": "answers_real_estate",
+  "$id": "answers-real-estate",
   "name": "Answers Real Estate",
   "supportedLocales": [],
   "countryRestrictions": [],

@@ -1,7 +1,7 @@
 {
-  "$id": "Blog_Title_Clicks_1604329113",
+  "$id": "1001",
   "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
-  "conversionName": "Blog Title Clicks",
+  "conversionName": "Blog - Title Clicks",
   "conversionType": "LEAD",
   "conversionValueType": "SAME",
   "conversionValueAmount": 5.0,
@@ -14,7 +14,7 @@
         "clickType": "TITLE",
         "media": [
           {
-            "answersConfig": "answers_real_estate"
+            "mediumType": "ALL_ANSWERS_EXPERIENCES"
           }
         ]
       }
