@@ -1,5 +1,5 @@
 {
-  "$id": "1001",
+  "$id": "c_blog-title-clicks",
   "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
   "conversionName": "Blog - Title Clicks",
   "conversionType": "LEAD",
