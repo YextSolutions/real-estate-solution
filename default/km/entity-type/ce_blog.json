@@ -22,6 +22,10 @@
       "required": false
     },
     {
+      "id": "c_author",
+      "required": false
+    },
+    {
       "id": "c_photo",
       "required": false
     },
