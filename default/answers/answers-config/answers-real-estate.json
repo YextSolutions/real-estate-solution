@@ -108,15 +108,36 @@
       "source": "KNOWLEDGE_MANAGER"
     }
   },
-  "autocomplete": {
-    "disablePopularQueries": false,
-    "hardcodedPrompts": [
+  "querySuggestions": {
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
       "Available properties",
       "How do I contact an agent?",
       "Buy a home in Bozeman, MT",
       "Where are your corporate offices?",
       "Blog Posts"
-    ]
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "offices": [
+        "Offices near [[address.city]]",
+        "Offices near [[address.region]]",
+        "Offices near me"
+      ],
+      "properties": [
+        "Properties near [[address.city]]",
+        "Properties near [[address.region]]",
+        "Properties near me"
+      ],
+      "blogs": [
+        "[[name]]"  
+      ],
+      "units": [
+        "Units near me"
+      ]
+    }
   },
   "synonyms": {
     "oneWay": [],
@@ -125,8 +146,6 @@
         "location",
         "office",
         "offices",
-        "restaurant",
-        "restaurants",
         "store",
         "stores",
         "place",
@@ -145,5 +164,6 @@
       ]
     ]
   },
-  "localizations": {}
+  "localizations": {},
+  "additionalSearchablePlaces": []
 }
