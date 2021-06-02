@@ -4,14 +4,19 @@
   "conversionName": "Blog - Title Clicks",
   "conversionType": "LEAD",
   "conversionValueType": "SAME",
-  "conversionValueAmount": 5.0,
+  "conversionValueAmount": 50.0,
   "conversionTerm": {
-    "startDate": "2020-11-02"
+    "startDate": "2020-08-27"
   },
   "conversionTrigger": {
     "clickTriggers": [
       {
         "clickType": "TITLE",
+        "entityFilter": {
+          "entityTypeIn": [
+            "ce_blog"
+          ]
+        },
         "media": [
           {
             "mediumType": "ALL_ANSWERS_EXPERIENCES"
@@ -19,7 +24,7 @@
         ]
       }
     ],
-    "completionRate": 100.0
+    "completionRate": 25.0
   },
   "enabled": true
 }

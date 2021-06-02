@@ -12,6 +12,11 @@
     "clickTriggers": [
       {
         "clickType": "ROW_EXPAND",
+        "entityFilter": {
+          "entityTypeIn": [
+            "yext/faq"
+          ]
+        },
         "media": [
           {
             "mediumType": "ALL_ANSWERS_EXPERIENCES"

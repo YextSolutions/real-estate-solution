@@ -10,6 +10,7 @@
         "ce_blog"
       ],
       "name": "Blogs",
+      "savedSearchId": "82545311",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
@@ -26,9 +27,13 @@
         "faq"
       ],
       "name": "FAQs",
+      "savedSearchId": "82534513",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
         },
         "name": {
           "semanticTextSearch": true
@@ -57,6 +62,9 @@
         },
         "builtin.location": {
           "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
         },
         "name": {
           "textSearch": true
@@ -93,11 +101,39 @@
         "ce_unit"
       ],
       "name": "Units",
+      "savedSearchId": "82550710",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         },
         "c_associatedProperty.name": {
+          "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "services": {
+      "entityTypes": [
+        "ce_service"
+      ],
+      "name": "Services",
+      "savedSearchId": "82539912",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_serviceCategory": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "keywords": {
           "textSearch": true
         },
         "name": {
