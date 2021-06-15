@@ -17,6 +17,9 @@
         },
         "name": {
           "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
         }
       },
       "sortBys": [],
