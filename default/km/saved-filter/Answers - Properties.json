@@ -14,14 +14,14 @@
         }
       },
       {
-        "fieldId": "yext/closed",
+        "fieldId": "closed",
         "searchBool": "FALSE"
       }
     ],
     "entityType": [
       {
         "entityTypeId": [
-          "yext/location"
+          "location"
         ],
         "type": "IS"
       }

@@ -3,18 +3,18 @@
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
     "c_locationType": "OFFICE",
-    "yext/address": {
+    "address": {
       "city": "New York",
       "countryCode": "US",
       "line1": "61 9th Ave",
       "postalCode": "10011",
       "region": "NY"
     },
-    "yext/addressHidden": false,
-    "yext/categoryIds": [
+    "addressHidden": false,
+    "categoryIds": [
       "255"
     ],
-    "yext/hours": {
+    "hours": {
       "friday": {
         "isClosed": false,
         "openIntervals": [
@@ -79,15 +79,15 @@
         ]
       }
     },
-    "yext/mainPhone": "+12129943900",
-    "yext/name": "Yext",
-    "yext/timezone": "America/New_York",
-    "yext/websiteUrl": {
+    "mainPhone": "+12129943900",
+    "name": "Yext",
+    "timezone": "America/New_York",
+    "websiteUrl": {
       "displayUrl": "https://www.yext.com/",
       "preferDisplayUrl": false,
       "url": "https://www.yext.com/"
     }
   },
-  "entityType": "yext/location",
+  "entityType": "location",
   "labels": []
 }

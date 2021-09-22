@@ -7,15 +7,15 @@
   "localization": "PRIMARY_ONLY",
   "type": {
     "listType": {
-      "typeId": "yext/entityReference",
+      "typeId": "entityReference",
       "type": {
         "entityReferenceType": {
           "supportedEntityTypeIds": [
-            "yext/location"
+            "location"
           ]
         }
       }
     }
   },
-  "typeId": "yext/list"
+  "typeId": "list"
 }

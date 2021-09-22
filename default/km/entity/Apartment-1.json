@@ -7,26 +7,26 @@
       "Unit A-2B"
     ],
     "c_locationType": "PROPERTY",
-    "yext/address": {
+    "address": {
       "city": "New York",
       "countryCode": "US",
       "line1": "61 9th Ave",
       "postalCode": "10011",
       "region": "NY"
     },
-    "yext/addressHidden": false,
-    "yext/categoryIds": [
+    "addressHidden": false,
+    "categoryIds": [
       "1686"
     ],
-    "yext/mainPhone": "+12129943900",
-    "yext/name": "Property A",
-    "yext/timezone": "America/New_York",
-    "yext/websiteUrl": {
+    "mainPhone": "+12129943900",
+    "name": "Property A",
+    "timezone": "America/New_York",
+    "websiteUrl": {
       "displayUrl": "https://www.yext.com/",
       "preferDisplayUrl": false,
       "url": "https://www.yext.com/"
     }
   },
-  "entityType": "yext/location",
+  "entityType": "location",
   "labels": []
 }

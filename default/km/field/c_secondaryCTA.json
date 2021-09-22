@@ -4,5 +4,5 @@
   "displayName": "Secondary CTA",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",
-  "typeId": "yext/cta"
+  "typeId": "cta"
 }
