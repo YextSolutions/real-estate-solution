@@ -1,0 +1,16 @@
+{
+  "$id": "ce_service.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Service-default",
+  "entityType": "ce_service",
+  "fields": [
+    "landingPageUrl",
+    "description",
+    "keywords",
+    "c_activeInAnswers",
+    "c_photo",
+    "c_primaryCTA",
+    "c_secondaryCTA",
+    "c_serviceCategory"
+  ]
+}

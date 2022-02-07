@@ -1,0 +1,16 @@
+{
+  "$id": "ce_unit.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Unit-default",
+  "entityType": "ce_unit",
+  "fields": [
+    "landingPageUrl",
+    "description",
+    "c_activeInAnswers",
+    "c_associatedProperty",
+    "keywords",
+    "c_photo",
+    "c_primaryCTA",
+    "c_secondaryCTA"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$id": "location.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Location-default",
+  "entityType": "location",
+  "fields": [
+    "c_associatedUnits",
+    "c_locationType",
+    "c_primaryCTA",
+    "c_secondaryCTA"
+  ]
+}

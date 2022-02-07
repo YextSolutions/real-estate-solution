@@ -1,4 +1,31 @@
 {
   "$schema": "https://schema.yext.com/config/km/settings/v1",
-  "primaryEntityType": "location"
+  "primaryEntityType": "location",
+  "entityTypeSettings": [
+    {
+      "entityType": "ce_blog",
+      "defaultFieldEligibilityGroup": "ce_blog.default",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_service",
+      "defaultFieldEligibilityGroup": "ce_service.default",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_unit",
+      "defaultFieldEligibilityGroup": "ce_unit.default",
+      "disabled": false
+    },
+    {
+      "entityType": "faq",
+      "defaultFieldEligibilityGroup": "faq.default",
+      "disabled": false
+    },
+    {
+      "entityType": "location",
+      "defaultFieldEligibilityGroup": "location.default",
+      "disabled": false
+    }
+  ]
 }
