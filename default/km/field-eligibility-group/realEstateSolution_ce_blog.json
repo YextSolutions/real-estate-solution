@@ -1,16 +1,16 @@
 {
-  "$id": "ce_unit.default",
+  "$id": "realEstateSolution_ce_blog",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Unit-default",
-  "entityType": "ce_unit",
+  "name": "realEstateSolution_Blog-default",
+  "entityType": "ce_blog",
   "fields": [
     "landingPageUrl",
     "description",
     "c_activeInAnswers",
-    "c_associatedProperty",
-    "keywords",
+    "c_author",
     "c_photo",
     "c_primaryCTA",
-    "c_secondaryCTA"
+    "c_secondaryCTA",
+    "keywords"
   ]
 }
