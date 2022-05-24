@@ -15,13 +15,20 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalBias": -0.1,
+      "semanticVerticalIntents": [
+        "blogs",
+        "articles",
+        "news"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -42,6 +49,11 @@
           "semanticTextSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "faqs",
+        "questions"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -49,6 +61,7 @@
       "apiKey": "REPLACE_API_KEY",
       "cx": "REPLACE_CX_KEY",
       "name": "Links",
+      "semanticVerticalIntents": [],
       "siteRestricted": false,
       "source": "GOOGLE_CSE",
       "useSynonyms": "ALL_SYNONYMS"
@@ -73,6 +86,13 @@
           "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "offices",
+        "offices near me",
+        "locations"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -96,29 +116,14 @@
           "textSearch": true
         }
       },
-      "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER"
-    },
-    "units": {
-      "entityTypes": [
-        "ce_unit"
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "properties",
+        "listings",
+        "apartments",
+        "houses"
       ],
-      "name": "Units",
-      "savedSearchId": "82550710",
-      "searchableFields": {
-        "builtin.entityType": {
-          "nlpFilter": true
-        },
-        "c_associatedProperty.name": {
-          "textSearch": true
-        },
-        "keywords": {
-          "textSearch": true
-        },
-        "name": {
-          "textSearch": true
-        }
-      },
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -143,39 +148,44 @@
           "textSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "services",
+        "sale",
+        "lease"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
-    }
-  },
-  "querySuggestions": {
-    "popularQueriesBlacklistedTerms": [],
-    "universalPrompts": [
-      "Available properties",
-      "How do I contact an agent?",
-      "Buy a home in Bozeman, MT",
-      "Where are your corporate offices?",
-      "Blog Posts"
-    ],
-    "verticalPrompts": {
-      "faqs": [
-        "[[name]]"
+    },
+    "units": {
+      "entityTypes": [
+        "ce_unit"
       ],
-      "offices": [
-        "Offices near [[address.city]]",
-        "Offices near [[address.region]]",
-        "Offices near me"
+      "name": "Units",
+      "savedSearchId": "82550710",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_associatedProperty.name": {
+          "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "units",
+        "apartments",
+        "listings"
       ],
-      "properties": [
-        "Properties near [[address.city]]",
-        "Properties near [[address.region]]",
-        "Properties near me"
-      ],
-      "blogs": [
-        "[[name]]"  
-      ],
-      "units": [
-        "Units near me"
-      ]
+      "semanticVerticalThreshold": 0.2,
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
     }
   },
   "synonyms": {
@@ -204,5 +214,38 @@
     ]
   },
   "localizations": {},
-  "additionalSearchablePlaces": []
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "Available properties",
+      "How do I contact an agent?",
+      "Buy a home in Bozeman, MT",
+      "Where are your corporate offices?",
+      "Blog Posts"
+    ],
+    "verticalPrompts": {
+      "blogs": [
+        "[[name]]"
+      ],
+      "faqs": [
+        "[[name]]"
+      ],
+      "offices": [
+        "Offices near [[address.city]]",
+        "Offices near [[address.region]]",
+        "Offices near me"
+      ],
+      "properties": [
+        "Properties near [[address.city]]",
+        "Properties near [[address.region]]",
+        "Properties near me"
+      ],
+      "units": [
+        "Units near me"
+      ]
+    }
+  }
 }
