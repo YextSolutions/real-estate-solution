@@ -1,0 +1,78 @@
+{
+  "$id": "realEstateSolution_unitCard",
+  "$schema": "https://schema.yext.com/config/km/entity-preview/v1",
+  "displayName": {
+    "default": "Unit",
+    "translations": []
+  },
+  "entityType": "ce_unit",
+  "previewType": "CARD",
+  "previewSettings": {
+    "showEntityTypeName": true,
+    "showEntityTypeSymbol": true,
+    "fieldSettingsList": [
+      {
+        "fieldIdentifier": {
+          "fieldId": "name",
+          "propertyNames": []
+        },
+        "fieldKind": "STRING",
+        "stringConfiguration": {
+          "isEmphasizedField": true,
+          "showFieldName": false,
+          "lineHeight": 1
+        }
+      },
+      {
+        "fieldIdentifier": {
+          "fieldId": "description",
+          "propertyNames": []
+        },
+        "fieldKind": "STRING",
+        "stringConfiguration": {
+          "isEmphasizedField": false,
+          "showFieldName": true,
+          "lineHeight": 2
+        }
+      },
+      {
+        "fieldIdentifier": {
+          "fieldId": "c_associatedProperty",
+          "propertyNames": []
+        },
+        "fieldKind": "ENTITY_REFERENCE",
+        "entityReferenceConfiguration": {
+          "isEmphasizedField": false,
+          "showFieldName": true,
+          "lineHeight": 1,
+          "showEntityCount": true,
+          "showEntityName": true,
+          "showEntityId": true
+        }
+      },
+      {
+        "fieldIdentifier": {
+          "fieldId": "entityId",
+          "propertyNames": []
+        },
+        "fieldKind": "STRING",
+        "stringConfiguration": {
+          "isEmphasizedField": false,
+          "showFieldName": true,
+          "lineHeight": 1
+        }
+      },
+      {
+        "fieldIdentifier": {
+          "fieldId": "c_photo",
+          "propertyNames": []
+        },
+        "fieldKind": "IMAGE",
+        "imageConfiguration": {
+          "showFieldName": false,
+          "fitImage": false
+        }
+      }
+    ]
+  }
+}

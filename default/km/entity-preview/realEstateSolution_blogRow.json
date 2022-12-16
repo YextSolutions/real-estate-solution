@@ -1,0 +1,52 @@
+{
+  "$id": "realEstateSolution_blogRow",
+  "$schema": "https://schema.yext.com/config/km/entity-preview/v1",
+  "displayName": {
+    "default": "Blog",
+    "translations": []
+  },
+  "entityType": "ce_blog",
+  "previewType": "ROW",
+  "previewSettings": {
+    "showEntityTypeName": true,
+    "showEntityTypeSymbol": true,
+    "fieldSettingsList": [
+      {
+        "fieldIdentifier": {
+          "fieldId": "name",
+          "propertyNames": []
+        },
+        "fieldKind": "STRING",
+        "stringConfiguration": {
+          "isEmphasizedField": true,
+          "showFieldName": false,
+          "lineHeight": 1
+        }
+      },
+      {
+        "fieldIdentifier": {
+          "fieldId": "description",
+          "propertyNames": []
+        },
+        "fieldKind": "STRING",
+        "stringConfiguration": {
+          "isEmphasizedField": false,
+          "showFieldName": true,
+          "lineHeight": 2
+        }
+      },
+      {
+        "fieldIdentifier": {
+          "fieldId": "entityId",
+          "propertyNames": []
+        },
+        "fieldKind": "STRING",
+        "stringConfiguration": {
+          "isEmphasizedField": false,
+          "showFieldName": true,
+          "lineHeight": 1
+        }
+      }
+    ]
+  }
+}
