@@ -13,6 +13,17 @@
     "fieldSettingsList": [
       {
         "fieldIdentifier": {
+          "fieldId": "c_photo",
+          "propertyNames": []
+        },
+        "fieldKind": "IMAGE",
+        "imageConfiguration": {
+          "showFieldName": false,
+          "fitImage": false
+        }
+      },
+      {
+        "fieldIdentifier": {
           "fieldId": "name",
           "propertyNames": []
         },
@@ -60,17 +71,6 @@
           "isEmphasizedField": false,
           "showFieldName": true,
           "lineHeight": 1
-        }
-      },
-      {
-        "fieldIdentifier": {
-          "fieldId": "c_photo",
-          "propertyNames": []
-        },
-        "fieldKind": "IMAGE",
-        "imageConfiguration": {
-          "showFieldName": false,
-          "fitImage": false
         }
       }
     ]
